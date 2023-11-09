@@ -1,18 +1,24 @@
 .blinker {
-  animation-duration: 1s;
-  animation-name: slidein;
-  animation-iteration-count: infinite ;
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: infinite ;
 }
 
 @keyframes slidein {
-  from {
-    color:rgb(255,20,20);
-    transform: translateX(0%);
-  }
+    0% {
+        opacity: 1;
+        color:rgb(255,20,20);
+        transform: translateX(0%);
+    }
 
-  to {
-    color:rgb(25,200,20);
-    transform: translateX(100%);
-  }
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        color:rgb(25,200,20);
+        transform: translateX(100%);
+    }
 }
 

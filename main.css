@@ -1,9 +1,11 @@
 @keyframes .blinker {
   from {
+    color:rgb(255,20,20);
     transform: translateX(0%);
   }
 
   to {
+    color:rgb(25,200,20);
     transform: translateX(100%);
   }
 }

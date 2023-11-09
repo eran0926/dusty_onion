@@ -1,4 +1,10 @@
-@keyframes .blinker {
+.blinker {
+  animation-duration: 1s;
+  animation-name: slidein;
+  animation-iteration-count: infinite ;
+}
+
+@keyframes slidein {
   from {
     color:rgb(255,20,20);
     transform: translateX(0%);
@@ -9,3 +15,4 @@
     transform: translateX(100%);
   }
 }
+
